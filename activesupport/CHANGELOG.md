@@ -1,4 +1,10 @@
 ## Rails 4.0.1 (November 01, 2013) ##
+*   Add extension for DateTime::Infinity and DateTime::INFINITY constant
+    to facilitate its usage in comparison and range operations.
+
+    *Serj Krasnov*
+
+*   Support :unless_exist in FileStore
 
 *   Disable the ability to iterate over Range of AS::TimeWithZone
     due to significant performance issues.

@@ -1,4 +1,9 @@
 ## Rails 4.0.1 (November 01, 2013) ##
+*   Initialize time/date ranges for Postgresql using DateTime::Infinity
+
+    *Serj Krasnov*
+
+*   ActiveRecord::Base#attribute_for_inspect now truncates long arrays (more than 10 elements)
 
 *   `NullRelation#pluck` takes a list of columns
 
